@@ -14,4 +14,6 @@ console.log(undefined > 0);
 console.log(undefined < 0);
 
 // === strict check
-console.log("2" === 2);
+console.log("2" === 2); // exact matah hona chahyai
+
+// == (type ko ignore krta hai value smjta hai or adjust kr leta hai)

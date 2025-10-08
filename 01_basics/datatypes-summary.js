@@ -45,3 +45,24 @@ console.log(typeof bigNumber);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Memory
+// Stack(primitive) , Heap(non-primitive)
+
+let myYoutubeName = "food crave";
+
+let anotherName = myYoutubeName;
+anotherName = "chai or code";
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+	email: "user@gmail.com",
+};
+
+let userTwo = userOne;
+userTwo.email = "hitesh@youtube.com";
+console.log(userOne.email);
+console.log(userTwo.email);
